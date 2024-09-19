@@ -13,7 +13,7 @@ function ThemeProvider({ children }) {
 			: "light";
 	});
 	const [skinColor, setSkinColor] = useState(
-		localStorage.getItem("skinColor") || "#ec1839"
+		localStorage.getItem("skinColor") || "#ec1839" //feature: allow users to add their own theme, but the themes they choose will only be available on their devices
 	);
 
 	function handleSkinColor(color) {

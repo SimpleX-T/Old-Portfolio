@@ -17,7 +17,7 @@ export default function SocialSection({ color = "var(--bg-black-100)" }) {
 			<Link
 				style={{ backgroundColor: color }}
 				className='inline-block social transition  p-2 rounded-lg'
-				to='https://x.com/xcodes_tech'
+				to='https://linkedin.com/in/mark-tochukwu-306b06298'
 				target='_blank'
 				rel='noopener noreferrer'>
 				<FaLinkedin className='text-4xl transition-colors duration-100 ease-in-out' />

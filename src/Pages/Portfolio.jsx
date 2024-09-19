@@ -4,31 +4,12 @@ import { Link } from "react-router-dom";
 const projects = [
 	{
 		id: 1,
-		title: "Project 1",
-		description: "Description 1",
-		link: "#",
-		technologies: ["Technology 1", "Technology 2"],
-	},
-	{
-		id: 2,
-		title: "Project 2",
-		description: "Description 2",
-		link: "#",
-		technologies: ["Technology 3", "Technology 4"],
-	},
-	{
-		id: 3,
-		title: "Project 3",
-		description: "Description 3",
-		link: "#",
-		technologies: ["Technology 5", "Technology 6"],
-	},
-	{
-		id: 4,
-		title: "Project 4",
-		description: "Description 4",
-		link: "#",
-		technologies: ["Technology 7", "Technology 8"],
+		img: "/portfolio_images/meta_market.jpg",
+		title: "Meta Market",
+		description:
+			"A webapp that enables NFT artists to store and sell their artworks.",
+		link: "https://meta-market-three.vercel.app",
+		technologies: ["ReactJS", "Ethers.js", "Web3.js", "RainbowKit"],
 	},
 ];
 
